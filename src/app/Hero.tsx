@@ -1,6 +1,8 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
+
 
 export default function Hero() {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -34,9 +36,11 @@ export default function Hero() {
           DUP PROGRAM
         </h1>
         <div className="mt-4 sm:mt-[38px]">
-          <button className="bg-red-500 hover:bg-red-900 text-white font-bold py-3 px-10 rounded">
+          <Link href="Produtos.tsx">
+          <p className="bg-red-500 hover:bg-red-900 text-white font-bold py-3 px-10 rounded">
             BUY NOW
-          </button>
+          </p>
+          </Link>
         </div>
       </div>
     </section>
