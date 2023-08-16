@@ -28,9 +28,9 @@ export default function Navbar() {
         <Image
           src="/images/LOGO_NOVA.png"
           alt="logo"
-          width={200}
+          width={150}
           height={150}
-          className="px-4 py-4"
+          className="my-4 mx-4 pb-2"
         />
       </Link>
       <div className="p-4 md:hidden">
