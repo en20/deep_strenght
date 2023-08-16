@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between">
       <Link href="/">
         <Image
-          src="/images/deeplog_correct.png"
+          src="/images/LOGO_NOVA.png"
           alt="logo"
           width={200}
           height={150}
