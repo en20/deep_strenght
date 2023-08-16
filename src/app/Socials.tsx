@@ -1,32 +1,23 @@
 import Image from "next/image"
 import Link from "next/link"
+import {FaYoutube} from "react-icons/fa"
+import {FaInstagram} from "react-icons/fa"
 
 
 
 export default function Socials() {
     return (
-        <div className="flex mt-16 items-center justify-center bg-[#eff1f1]">
-            <Link href="/">
-            <Image
-            src="/images/instagram.svg"
-            alt="logo"
-            width={200}
-            height={150}
-            className="max-w-[69px] mx-8 my-16"
-            
-            
-            />
-            </Link>
-            <Link href="/">
-            
-             <Image
-            src="/images/youtube.svg"
-            alt="logo"
-            width={200}
-            height={150}
-            className="  max-w-[69px] mx-8 my-16"
-            
-            />
-            </Link>
-        </div>
+        <section>
+            <div className="text-center justify-center m-auto flex">
+                <Link href="/">
+                <FaYoutube
+                className="text-5xl hover:text-red-500 mx-8"/>
+                </Link>
+                <Link href="/">
+                <FaInstagram
+                className="text-5xl hover:text-pink-500 mx-8"/>
+                </Link>
+            </div>
+        </section>
     )}
+        
