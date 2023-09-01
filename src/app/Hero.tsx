@@ -36,7 +36,7 @@ export default function Hero() {
           DUP PROGRAM
         </h1>
         <div className="mt-4 sm:mt-[38px]">
-          <Link href="/About">
+          <Link href="/about">
           <p className="bg-red-500 hover:bg-red-900 text-white font-bold py-3 px-10 rounded">
             BUY NOW
           </p>
