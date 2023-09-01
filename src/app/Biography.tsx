@@ -9,7 +9,7 @@ export default function Biography() {
         <p className="font-abc text-black text-[42px] md:text-5xl ">
           DAVID LAID
         </p>
-        <p className="mt-2 md:mt-6 text-left font-def text-[14px] font-[100] max-w-[440px]">
+        <p className="mt-2 md:mt-6 text-left font-ghi text-[14px] font-[100] max-w-[440px]">
           6 Years ago I began my fitness journey as a 90 pound frail, lanky,
           near emaciated teen looking to build confidence and become comfortable
           in my own skin. Although my central goal has always been muscular
@@ -21,14 +21,14 @@ export default function Biography() {
           training session.
         </p>
       </div>
-      <div className="">
-        <Image
-          src="/images/guy_gym.png"
-          alt="heroimage"
-          width={512}
-          height={768}
-          className=""
-        />
+      <div className="justify-end items-end flex m-auto">
+      <Image
+            src="/images/davidmobile.webp"
+            alt="teste"
+            width={335}
+            height={416}
+            className="mt-12 md:w-[450px] mb-12"
+          />
       </div>
     </section>
   );

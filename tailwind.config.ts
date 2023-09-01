@@ -17,7 +17,8 @@ const config: Config = {
     fontFamily:{
       abc:['Montserrat','sans-serif'],
       def:['Noto Serif Vithkuqi','serif'],
-      ghi:[ 'Inter', 'sans-serif']
+      ghi:[ 'Poppins', 'sans-serif']
+      
       
     }
   },

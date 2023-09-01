@@ -6,7 +6,7 @@ export default function Description() {
         <h1 className="font-abc text-[49px]">DUP</h1>
       </div>
       <div>
-        <p className="mt-3 text-center justify-center mx-4 text-[14px] mb-10 md:mx-52">
+        <p className="mt-3 text-center justify-center mx-4 text-[14px] mb-10 md:mx-52 font-ghi">
           I'm a strong believer in programming which prioritizes strength in the
           development of one’s physique. It is the natural lifter's most
           valuable tool in being able to make sustained progress in building

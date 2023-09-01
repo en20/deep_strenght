@@ -12,7 +12,7 @@ export default function Benefits() {
 
       <div className="flex flex-col md:grid md:grid-cols-3 mx-12 mt-10 justify-between items-center md:mx-32">
         <span className="flex mb-10 md:flex-col ml-[-25px] md:pl-16">
-          <GiStrong className="text-7xl mr-6 md:ml-[167px]" />
+          <GiStrong className="text-7xl mr-6 md:ml-[130px]" />
           <span className="flex flex-col md:mt-16 md:ml-[50px] md:mx-8  ">
             <p className="mb-1 font-bold font-ghi md:text-center">
               BESPOKE WORKOUT PLAN
@@ -23,7 +23,7 @@ export default function Benefits() {
           </span>
         </span>
         <span className="flex mb-10 md:flex-col ml-[-25px]">
-          <BsGraphUp className="text-7xl mr-6 md:ml-[198px] " />
+          <BsGraphUp className="text-7xl mr-6 md:ml-[176px] " />
           <span className="flex flex-col md:mt-16 md:ml-[50px] md:mx-8  ">
             <p className="mb-1 font-bold font-ghi min-w-[216px] md:text-center">
               HYPERTROPHY VS. STRENGTH
@@ -35,7 +35,7 @@ export default function Benefits() {
           </span>
         </span>
         <span className="flex mb-10 md:flex-col ml-[-25px] md:pr-16">
-          <FaDna className="text-7xl mr-6 md:ml-[164px]" />
+          <FaDna className="text-7xl mr-6 md:ml-[140px]" />
           <span className="flex flex-col md:mt-16 md:ml-[50px] md:mx-8 ">
             <p className="mb-1 font-bold font-ghi md:text-center">
               UNDERSTAND DUP
@@ -47,11 +47,7 @@ export default function Benefits() {
           </span>
         </span>
       </div>
-      <div className="mt-[10px] items-center justify-center pl-[110px] md:ml-[555px]">
-        <button className="bg-red-500 hover:bg-red-900 text-white font-bold py-3 px-10 rounded mb-14">
-          BUY NOW
-        </button>
-      </div>
+      
     </section>
   );
 }
