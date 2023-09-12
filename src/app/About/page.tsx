@@ -1,9 +1,12 @@
+"use client"
 import Navbarv2 from "../Navbarv2";
 import Navbar from "../Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import Benefitswout from "../Benefitswout";
 import Footer from "../Footer";
+import Plans from "../Plans";
+
 export default function Aboutpage() {
   return (
     <section>
@@ -12,10 +15,10 @@ export default function Aboutpage() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 md:max-w-[1280px] md:justify-center md:m-auto md:mt-10">
         <div className=" md:h-16 mx-6 mt-10 md:mt-6 items-start justify-start md:justify-center md:items-center  ">
-          <h1 className="text-5xl md:text-6xl font-abc md:pl-[565px]">DUP PROGRAM</h1>
-        
+          <h1 className="text-5xl md:text-6xl font-abc md:pl-[565px]">
+            DUP PROGRAM
+          </h1>
 
-        
           <Image
             src="/images/davidmobile.webp"
             alt="teste"
@@ -23,8 +26,7 @@ export default function Aboutpage() {
             height={416}
             className="mt-4 md:w-[450px] md:mt-[-50px]"
           />
-          </div>
-        
+        </div>
 
         <div className="mx-6 mt-6 justify-between md:pl-[565px] md:mt-16 md:text-start font-ghi md:mr-[120px]">
           <p className="text-xl mb-6 font-abc">R$ 100,00</p>
@@ -60,6 +62,10 @@ export default function Aboutpage() {
             </Link>
           </div>
         </div>
+      </div>
+      <div>
+        <Plans />
+        
       </div>
 
       <div className="mt-24">

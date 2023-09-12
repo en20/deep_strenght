@@ -17,7 +17,7 @@ export default function Loginpage() {
   return (
     <section className="min-h-screen justify-center items-center">
       <Navbar />
-      <div className="justify-center items-center align-middle flex font-abc text-5xl border border-black">
+      <div className="justify-center items-center align-middle flex font-abc text-5xl">
         <h1>Login</h1>
       </div>
       <div className="w-full justify-center items-center align-middle flex h-96">
@@ -68,7 +68,7 @@ export default function Loginpage() {
         </form>
         
       </div>
-      <div className="justify-center items-center align-middle flex font-abc border border-black">
+      <div className="justify-center items-center align-middle flex font-abc ">
           <Link
           href="/">
             <button  >
